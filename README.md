@@ -21,8 +21,8 @@
 |13  | [Abstract Classes](#abstract-classes)|
 |14  | [Static Keyword](#static-keyword)|
 |15  | [Final Keyword](#final-keyword)|
-|16  | [What is interface & Why we need interface in PHP?](##what-is-interface--why-we-need-interface-in-php)|
-|17  | [What is Traits & Why we use Traits?](##what-is-traits--why-we-use-traits)|
+|16  | [What is interface & Why we need interface in PHP?](#what-is-interface--why-we-need-interface-in-php)|
+|17  | [What is Traits & Why we use Traits?](#what-is-traits--why-we-use-traits)|
 
 
 1.  ### Class
