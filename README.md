@@ -25,10 +25,12 @@
     By using this keyword we can allocate space in the new memory locations to load class content.
 
 4.   ### Constructor - 
-    The constructor is one the type of method which is having class name same as method name. By default, every class contains a default constructor used to load class     constraints.
+    The constructor is one the type of method which is having class name same as method name. 
+    By default, every class contains a default constructor used to load class     constraints.
     In PHP we can use constructor in two ways -
     Using constructor keyword (default constructor) - __constructor().
     Using class name - className().
+    
 5.  ### Destructor - 
     Destructor is the special type of method, which can be executed at the time of destroying object of class. By using __destructor() we can create destructor. In PHP, the class objects will get destroyed when execution of the script is completed. We can also destroy class object between script execution using the unset function.
 
@@ -51,7 +53,7 @@
     This refers to a concept where we encapsulate all the data and member functions together to form an object.
 
 12. ### Constants -
-A constant is somewhat like a variable, in that it holds a value, but is really more like a function because a constant is immutable. Once you declare a constant, it does not change.
+    A constant is somewhat like a variable, in that it holds a value, but is really more like a function because a constant is immutable. Once you declare a constant, it does not change.
 
 13. ### Abstract Classes - 
     An abstract class is one that cannot be instantiated, only inherited. You declare an abstract class with the keyword abstract.
@@ -60,4 +62,4 @@ A constant is somewhat like a variable, in that it holds a value, but is really 
     Declaring class members or methods as static makes them accessible without needing an instantiation of the class. A member declared as static can not be accessed with an instantiated class object (though a static method can).
 
 15. ### Final Keyword - 
-PHP 5 introduces the final keyword, which prevents child classes from overriding a method by prefixing the definition with final. If the class itself is being defined final then it cannot be extended.
+    PHP 5 introduces the final keyword, which prevents child classes from overriding a method by prefixing the definition with final. If the class itself is being defined final then it cannot be extended.
