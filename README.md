@@ -21,6 +21,8 @@
 |13  | [Abstract Classes](#abstract-classes)|
 |14  | [Static Keyword](#static-keyword)|
 |15  | [Final Keyword](#final-keyword)|
+|16  | [What is interface & Why we need interface in PHP?](#)|
+|17  | [What is Traits & Why we use Traits?](#)|
 
 
 1.  ### Class
@@ -102,4 +104,21 @@
 15. ### Final Keyword
     PHP 5 introduces the final keyword, which prevents child classes from overriding a method by prefixing the definition with final. If the class itself is being defined final then it cannot be extended.
     
+    **[⬆ Back to Top](#table-of-contents)**
+
+16. ### What is interface & Why we need interface in PHP?
+
+    Interface is same like abstract class only difference is that interface dont have non abstract methods, It contains only abstaract methods.
+    
+    An interface allows unrelated classes to implement the same set of methods, regardless of their positions in the class inheritance hierarchy. An interface enables you to model multiple inheritance because a class can implement more than one interface whereas it can extend only one class.
+    Interfaces are 100% abstract classes – they have methods but the methods have no ‘guts’.
+    Interfaces cannot be instantiated.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+17. ### What is Traits & Why we use Traits?
+
+    Traits are a simple group of methods that you want to include in another class.
+    A Trait, like an abstract class, cannot be instantiated by itself. The trait is created to reduce the limitations of single inheritance in PHP by enabling a developer to reuse sets of methods freely in several independent classes living in different class hierarchies.
+
     **[⬆ Back to Top](#table-of-contents)**
