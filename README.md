@@ -109,6 +109,7 @@
 16. ### What is interface & Why we need interface in PHP?
 
     Interface is same like abstract class only difference is that interface dont have non abstract methods, It contains only abstaract methods.
+    If we wont use all methods available in interface it will through fatal error.
     
     An interface allows unrelated classes to implement the same set of methods, regardless of their positions in the class inheritance hierarchy. An interface enables you to model multiple inheritance because a class can implement more than one interface whereas it can extend only one class.
     Interfaces are 100% abstract classes – they have methods but the methods have no ‘guts’.
